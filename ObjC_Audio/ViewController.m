@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSURL *SoundURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"" ofType:@"wav"]];
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)SoundURL, &SoundID);
 }
 
 
@@ -26,4 +28,7 @@
 }
 
 
+- (IBAction)PlayAudio:(id)sender {
+    AudioServicesPlaySystemSound(SoundID);
+}
 @end

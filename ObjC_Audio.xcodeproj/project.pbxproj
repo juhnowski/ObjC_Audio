@@ -13,6 +13,8 @@
 		09B2913920F4208B00C75D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B2913820F4208B00C75D59 /* Assets.xcassets */; };
 		09B2913C20F4208B00C75D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B2913A20F4208B00C75D59 /* LaunchScreen.storyboard */; };
 		09B2913F20F4208B00C75D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B2913E20F4208B00C75D59 /* main.m */; };
+		09B2914920F4223D00C75D59 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B2914820F4223D00C75D59 /* AudioToolbox.framework */; };
+		09B2914B20F4257000C75D59 /* 3133.wav in Resources */ = {isa = PBXBuildFile; fileRef = 09B2914A20F4257000C75D59 /* 3133.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		09B2913B20F4208B00C75D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B2913D20F4208B00C75D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B2913E20F4208B00C75D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09B2914820F4223D00C75D59 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		09B2914A20F4257000C75D59 /* 3133.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3133.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B2914920F4223D00C75D59 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				09B2912E20F4208A00C75D59 /* ObjC_Audio */,
 				09B2912D20F4208A00C75D59 /* Products */,
+				09B2914720F4223D00C75D59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,9 +72,18 @@
 				09B2913820F4208B00C75D59 /* Assets.xcassets */,
 				09B2913A20F4208B00C75D59 /* LaunchScreen.storyboard */,
 				09B2913D20F4208B00C75D59 /* Info.plist */,
+				09B2914A20F4257000C75D59 /* 3133.wav */,
 				09B2913E20F4208B00C75D59 /* main.m */,
 			);
 			path = ObjC_Audio;
+			sourceTree = "<group>";
+		};
+		09B2914720F4223D00C75D59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09B2914820F4223D00C75D59 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +145,7 @@
 			files = (
 				09B2913C20F4208B00C75D59 /* LaunchScreen.storyboard in Resources */,
 				09B2913920F4208B00C75D59 /* Assets.xcassets in Resources */,
+				09B2914B20F4257000C75D59 /* 3133.wav in Resources */,
 				09B2913720F4208A00C75D59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
